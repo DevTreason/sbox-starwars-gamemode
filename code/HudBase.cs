@@ -9,13 +9,13 @@ namespace SWBase
 	/// This is the HUD entity. It creates a RootPanel clientside, which can be accessed
 	/// via RootPanel on this entity, or Local.Hud.
 	/// </summary>
-	public partial class SWHudEntity : Sandbox.HudEntity<RootPanel>
+	public partial class SWGameBaseEntity : Sandbox.HudEntity<RootPanel>
 	{
-		public SWHudEntity()
+		public SWGameBaseEntity()
 		{
 			if ( IsClient )
 			{
-				RootPanel.SetTemplate( "/minimalhud.html" );
+				RootPanel.SetTemplate( "/HudBase.html" );
 			}
 		}
 	}
