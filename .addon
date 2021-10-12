@@ -1,3 +1,20 @@
 {
-	"sharedassets": "*.*"
+		"name": "SWBase",
+		"sharedassets": "*.*",
+		
+		"depends": 
+		[
+			"base",
+			"citizen",
+			"rust"
+		],
+
+		"gamemodes":
+		[
+			{
+				"name": "SWBase",
+				"title": "SWBase",
+				"description": "SWBase gamemode for s&box."
+			}
+		]
 }
