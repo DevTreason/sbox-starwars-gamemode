@@ -2,9 +2,9 @@ using Sandbox;
 using System;
 using System.Linq;
 
-namespace MinimalExample
+namespace SWBase
 {
-	partial class MinimalPlayer : Player
+	partial class SWGameBasePlayer : Player
 	{
 		public override void Respawn()
 		{
