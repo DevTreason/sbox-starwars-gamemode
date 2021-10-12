@@ -23,5 +23,6 @@
 Want to contribute to our Development?
 
 Donate to us! Anything helps us put more time and effort towards our project.
-[PayPal](https://www.paypal.com/paypalme/treasonthecoolkid) <----- Click to donaate
+
+[PayPal](https://www.paypal.com/paypalme/treasonthecoolkid)
 
