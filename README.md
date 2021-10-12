@@ -2,9 +2,9 @@
 
 ## _The only Starwars Base you will need_
 
+[gamemode]: 1.0.0
 
-[![Build Status](https://github.com/DevTreason/sbox-starwars-gamemode)](https://github.com/DevTreason/sbox-starwars-gamemode)
-
+[Gamemode Version](https://github.com/DevTreason/sbox-starwars-gamemode) V [gamemode]
 ## Features
 - Model Base
 - Weapon Base
