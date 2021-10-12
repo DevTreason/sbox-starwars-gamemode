@@ -22,9 +22,9 @@ namespace SWBase
 	/// as your game addon. If it isn't then we won't be able to find it.
 	/// </summary>
 	[Library( "SWBase" )]
-	public partial class SWBase : Sandbox.Game
+	public partial class SWGameBase : Sandbox.Game
 	{
-		public SWBase()
+		public SWGameBase()
 		{
 			if ( IsServer )
 			{
@@ -34,7 +34,7 @@ namespace SWBase
 				// and when it is created clientside it creates the actual
 				// UI panels. You don't have to create your HUD via an entity,
 				// this just feels like a nice neat way to do it.
-				new SWHudBaseEntity();
+				new SWGameBaseEntity();
 			}
 
 			if ( IsClient )
@@ -50,7 +50,7 @@ namespace SWBase
 		{
 			base.ClientJoined( client );
 
-			var player = new SWBasePlayer();
+			var player = new SWGameBasePlayer();
 			client.Pawn = player;
 
 			player.Respawn();
