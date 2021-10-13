@@ -8,7 +8,7 @@ namespace SWBase
 	{
 		public override void Respawn()
 		{
-			SetModel( "models/citizen/citizen.vmdl" );
+			SetModel( "models/untitled_2.vmdl" );
 
 			//
 			// Use WalkController for movement (you can make your own PlayerController for 100% control)
@@ -46,7 +46,7 @@ namespace SWBase
 			if ( IsServer && Input.Pressed( InputButton.Attack1 ) )
 			{
 				var ragdoll = new ModelEntity();
-				ragdoll.SetModel( "models/untitled_2.vmdl" );  
+				ragdoll.SetModel( "models/citizen/citizen.vmdl" );  
 				ragdoll.Position = EyePos + EyeRot.Forward * 40;
 				ragdoll.Rotation = Rotation.LookAt( Vector3.Random.Normal );
 				ragdoll.SetupPhysicsFromModel( PhysicsMotionType.Dynamic, false );
